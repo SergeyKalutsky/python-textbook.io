@@ -1,0 +1,37 @@
+site_name: Учебник Python
+nav:
+  - Переменные: index.md
+  - Типы даных:
+      - data_types/index.md
+      - Числовые данные: data_types/numbers.md
+      - Строки: data_types/strings.md
+      - Встроенные методы(строки): data_types/strings_methods.md
+      - Boolean: data_types/boolean.md
+  - Логические операции:
+      - logic/index.md
+      - if: logic/if.md
+      - else: logic/else.md
+      - elif: logic/elif.md
+      - and/or: logic/and_or.md
+  - Встроенные функции:
+      - built_ins/index.md
+      - print: built_ins/print.md
+      - input: built_ins/input.md
+      - range: built_ins/range.md
+      - len: built_ins/len.md
+  - Циклы:
+      - loops/index.md
+      - for: loops/for.md
+      - while: loops/while.md
+    
+
+theme:
+  features:
+    - navigation.indexes
+  name: material
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
