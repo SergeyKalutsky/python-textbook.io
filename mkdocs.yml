@@ -3,10 +3,12 @@ nav:
   - Переменные: index.md
   - Типы даных:
       - data_types/index.md
+      - Boolean: data_types/boolean.md
       - Числовые данные: data_types/numbers.md
       - Строки: data_types/strings.md
       - Встроенные методы(строки): data_types/strings_methods.md
-      - Boolean: data_types/boolean.md
+      - Списки: data_types/lists.md
+      - Словари: data_types/dicts.md
   - Логические операции:
       - logic/index.md
       - if: logic/if.md
