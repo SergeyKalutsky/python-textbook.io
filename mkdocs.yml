@@ -1,7 +1,7 @@
 site_name: Учебник Python
 nav:
   - Комментарии: comments.md
-  - Переменные: variables.md
+  - Переменные: index.md
   - Типы даных:
       - data_types/index.md
       - Кастинг: data_types/casting.md
