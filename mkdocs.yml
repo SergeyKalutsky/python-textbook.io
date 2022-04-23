@@ -4,6 +4,7 @@ nav:
   - Переменные: variables.md
   - Типы даных:
       - data_types/index.md
+      - Кастинг: data_types/casting.md
       - Boolean: data_types/boolean.md
       - Числовые данные: data_types/numbers.md
       - Строки: data_types/strings.md
