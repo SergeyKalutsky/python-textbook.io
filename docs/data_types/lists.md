@@ -68,28 +68,37 @@ lst = [1, 2, 3, 4, 5]
 ```py
 >>> lst = ['1', '3', '4']
 ['1', '3', '4']
+
 >>> lst.append('hi')
 >>> print(lst)
 ['1', '3', '4', 'hi']
+
 >>> lst.append('there')
 >>> print(lst)
 ['1', '3', '4', 'hi', 'there']
+
 >>> lst.extend(['2', '3', '4'])
 >>> print(lst)
 ['1', '3', '4', 'hi', 'there', '2', '3', '4']
+
 >>> element = lst.pop()
 >>> print(element, lst)
 4 ['1', '3', '4', 'hi', 'there', '2', '3']
+
 >>> print(lst.index('3'))
 1
+
 >>> print(lst.count('3'))
 2
+
 >>> lst.sort()
 >>> print(lst)
 ['1', '2', '3', '3', '4', 'hi', 'there']
+
 >>> lst.reverse()
 >>> print(lst)
 ['there', 'hi', '4', '3', '3', '2', '1']
+
 >>> lst_copy = lst.copy()
 >>> lst.clear()
 >>> print(lst)
