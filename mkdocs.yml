@@ -1,6 +1,7 @@
 site_name: Учебник Python
 nav:
-  - Переменные: index.md
+  - Комментарии: comments.md
+  - Переменные: variables.md
   - Типы даных:
       - data_types/index.md
       - Boolean: data_types/boolean.md
