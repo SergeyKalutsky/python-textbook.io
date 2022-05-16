@@ -22,6 +22,8 @@ nav:
       - input: built_ins/input.md
       - range: built_ins/range.md
       - len: built_ins/len.md
+      - eval: built_ins/eval.md
+      - randint: built_ins/randint.md
   - Циклы:
       - loops/index.md
       - for: loops/for.md
