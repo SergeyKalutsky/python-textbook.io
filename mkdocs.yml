@@ -26,6 +26,7 @@ nav:
       - loops/index.md
       - for: loops/for.md
       - while: loops/while.md
+      - break/conitune: loops/break_continue.md
     
 
 theme:
