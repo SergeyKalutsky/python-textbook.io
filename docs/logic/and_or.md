@@ -6,8 +6,21 @@
 
 **or** - не строгий оператор и возврщает True, если хотя бы одно условие истинно
 ```py
->>> print(True and True and True and False)
+# and - строгое условие
+>>> print(True and True)
+True
+>>> print(True and False)
 False
->>> print(True or True or True or False)
+>>> print(False and False)
+False
+
+# or - не строгое условие
+>>> print(True or True)
+True
+>>> print(True or False)
+True
+>>> print(False or False)
 True
 ```
+
+## Примеры

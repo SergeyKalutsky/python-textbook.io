@@ -8,7 +8,6 @@ nav:
       - Boolean: data_types/boolean.md
       - Числовые данные: data_types/numbers.md
       - Строки: data_types/strings.md
-      - Встроенные методы(строки): data_types/strings_methods.md
       - Списки: data_types/lists.md
       - Словари: data_types/dicts.md
   - Логические операции:
