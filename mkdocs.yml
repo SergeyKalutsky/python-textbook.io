@@ -27,7 +27,12 @@ nav:
       - for: loops/for.md
       - while: loops/while.md
       - break/conitune: loops/break_continue.md
-    
+  - Функции:
+      - functions/index.md
+      - Создание/Вызов: functions/creation_use.md
+      - Return: functions/return.md
+      - Аргументы: functions/arguments.md
+      - Глобальные/локальные переменные: functions/global_local.md
 
 theme:
   features:
